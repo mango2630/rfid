@@ -1,0 +1,117 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/entrance/Entrance",
+			"style": {
+				"navigationBarTitleText": "RFID设备管理"
+			}
+		},
+		{
+			"path": "pages/login/Login",
+			"style": {
+				"navigationBarTitleText": "登录账号"
+			}
+		},
+		{
+			"path": "pages/register/Register",
+			"style": {
+				"navigationBarTitleText": "注册账号"
+			}
+		},
+		{
+			"path": "pages/storage/Storage",
+			"style": {
+				"navigationBarTitleText": "仓库设备",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/underlease/Underlease",
+			"style": {
+				"navigationBarTitleText": "转借信息"
+			}
+		},
+		{
+			"path": "pages/record/Record",
+			"style": {
+				"navigationBarTitleText": "设备记录"
+			}
+		},
+		{
+			"path": "pages/profile/Profile",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/index/Index",
+			"style": {
+				"navigationBarTitleText": "详情页"
+			}
+		},
+		{
+			"path": "pages/faceid/FaceIdReg",
+			"style": {
+				"navigationBarTitleText": "人脸识别信息录入"
+			}
+		},
+		{
+			"path": "pages/faceid/FaceIdLog",
+			"style": {
+				"navigationBarTitleText": "人脸识别登录"
+			}
+		},
+		{
+			"path": "pages/setprofile/SetProfile",
+			"style": {
+				"navigationBarTitleText": "个人信息设置"
+			}
+		},
+		{
+			"path": "pages/borrowrequest/ReqBor",
+			"style": {
+				"navigationBarTitleText": "先管理员发借用请求"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/storage/Storage",
+			"iconPath": "static/tabbar/storage.png",
+			"selectedIconPath": "static/tabbar/storageadd.png",
+			"text": "仓库"
+		}, {
+			"pagePath": "pages/underlease/Underlease",
+			"iconPath": "static/tabbar/underlease.png",
+			"selectedIconPath": "static/tabbar/underleaseadd.png",
+			"text": "转借"
+		},
+		{
+			"pagePath": "pages/record/Record",
+			"iconPath": "./static/tabbar/record.png",
+			"selectedIconPath": "static/tabbar/recordadd.png",
+			"text": "记录"
+		},
+		{
+			"pagePath": "pages/profile/Profile",
+			"iconPath": "static/tabbar/profile.png",
+			"selectedIconPath": "static/tabbar/profileadd.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		// 下拉刷新时刷新部分颜色
+		"backgroundColor": "#c8e1f8"
+	}
+}
