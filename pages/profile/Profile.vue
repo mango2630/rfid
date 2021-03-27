@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view class="body">
 		
 		<view class="img">
 			<image src="../../static/logo.png" mode=""></image>
@@ -11,18 +11,16 @@
 		<text>个性标签</text>
 		
 		<navigator url="../setprofile/SetProfile">
-			<button type="default">个人信息设置</button>
+			<button type="default" class="mineButton">个人信息设置</button>
 		</navigator>
 		
-		<navigator url="../entrance/Entrance">
-			<button type="default">退出登录</button>
+		<navigator url="../entrance/Entrance" open-type="redirect" >
+			<button type="default" class="balckButton">退出登录</button>
 		</navigator>
 	</view>
 </template>
 
 <style>
-	image{
-		width: 50rpx;
-		height: 50rpx;
-	}
+	@import url("../../static/profile/css/style.css");
+	
 </style>

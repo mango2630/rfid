@@ -3,7 +3,6 @@
 		<p>欢迎使用RFID管理设备</p>
 		
 		<navigator url="../login/Login" >
-			<!-- open-type="redirect" -->
 			<button type="default">登录</button>
 		</navigator>
 		

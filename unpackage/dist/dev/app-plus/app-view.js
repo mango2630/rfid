@@ -1793,7 +1793,13 @@ var render = function() {
       ),
       _c(
         "v-uni-navigator",
-        { attrs: { url: "../entrance/Entrance", _i: 12 } },
+        {
+          attrs: {
+            url: "../entrance/Entrance",
+            "open-type": "redirect",
+            _i: 12
+          }
+        },
         [
           _c("v-uni-button", { attrs: { type: "default", _i: 13 } }, [
             _vm._v("退出登录")
@@ -2118,7 +2124,12 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("v-uni-view", { attrs: { _i: 0 } })
+  return _c(
+    "v-uni-view",
+    { attrs: { _i: 0 } },
+    [_c("v-uni-button", { attrs: { _i: 1 } }, [_vm._v("拍照")])],
+    1
+  )
 }
 var recyclableRender = false
 var staticRenderFns = []

@@ -44,11 +44,11 @@
 					data:this.login,
 					
 					// success:function(res){
-					// 	console.log(res.data);
+						// console.log(res);
 						
 					// }
 				}).then(res=>{
-					console.log(res)
+					// console.log(res);
 					// console.log(res.data.message)
 					if(res[1].data.message === true){
 						// alert("注册成功");

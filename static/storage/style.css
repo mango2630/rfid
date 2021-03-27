@@ -1,0 +1,101 @@
+/* header css */
+.header{
+	width: 100%;
+	height: 80rpx;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.header .search{
+	width: 97%;
+	height: 90%;
+	border: 2px solid #1296db;
+	border-radius: 100rpx;
+	position: relative;
+	left: 10rpx;
+	right: 10rpx;
+	top: 0;
+}
+.header .search input{
+	width: 65%;
+	height: 100%;
+	position: absolute;
+	left: 40rpx;
+}
+
+.header .search button{
+	width: 20%;
+	height: 85%;
+	border-radius: 100rpx;
+	line-height: 65rpx;
+	position: absolute;
+	right: 10rpx;
+	top: 5rpx;
+	background-color: #99A9BF;
+}
+
+
+/* slider css */
+.slider{
+	position: relative;
+	left: 10rpx;
+	width: 98%;
+	border-radius: 20rpx;
+}
+.swiper,.swiper swiper-item,swiper swiper-item image{
+	width: 100%;
+	border-radius: 20rpx;
+}
+
+/* display equipment */
+.display{
+	width: 98%;
+	margin: 0 auto;
+	border: 1px solid black;
+	position: relative;
+	height: 10000rpx;
+}
+.display .equip1{
+	width: 48%;
+	height: 480rpx;
+	position: absolute;
+	left: 0rpx;
+	top: 3rpx;
+	border: 1px solid red;
+	margin-right: 5rpx;
+}
+.display .equip2{
+	width: 48%;
+	height: 480rpx;
+	position: absolute;
+	right: 0rpx;
+	top: 3rpx;
+	border: 1px solid red;
+	margin-left: 5rpx;
+}
+.display image{
+	width: 100%;
+	height: 65%;
+	/* border: 1px solid black; */
+	
+}
+.display text{
+	display: block;
+	margin-left: 15rpx;
+	height: 8rpx;
+}
+
+
+/* checkbox css */
+.checkbox{
+	width: 100rpx;
+	height: 100rpx;
+	position: fixed;
+	bottom: 100rpx;
+	left: 0rpx;
+}
+.checkbox image{
+	width: 100%;
+	height: 100%;
+}

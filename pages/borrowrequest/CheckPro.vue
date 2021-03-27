@@ -1,14 +1,11 @@
 <template>
 	<view>
-		<button>拍照</button>
+		查询进度
 	</view>
 </template>
 
 <script>
-	export default{
-		    
-			
-	}
+	
 </script>
 
 <style>
