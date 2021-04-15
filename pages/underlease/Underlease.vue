@@ -1,8 +1,20 @@
 <template>
-	<view>
-		转借<br>
-		1. 看到发送的各种借用设备请求<br>
-		2. 如果自己有，可选择接单借给他这个设备<br>
-		3. 选择接单后，对方向管理员发送借用请求（管理员审批通过，将设备借用给他）<br>
+	<view class="under">
+		<view class="container">
+			<view class="content">
+				<text>用户名：<span>19407010204</span></text>
+				<text>设备名称：<span>华为手机</span></text>
+				<text>地理位置：<span>陕西省咸阳市临潼区</span></text>
+				<text>发表时间：<span>2021-4-08</span></text>
+			</view>
+			<view class="but">
+				<button type="submit" class="submit">接单</button>
+			</view>
+		</view>
 	</view>
 </template>
+
+
+<style>
+	@import url("../../static/underlease/style.css");
+</style>

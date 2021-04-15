@@ -1,0 +1,37 @@
+/* 全局样式 and 清楚默认样式 */
+.container{
+	background-color: #F7F7F7;
+	margin-top: 20rpx;
+}
+
+ul,ul li{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	background-color: white;
+}
+
+.content{
+	display: block;
+	padding-left: 30rpx;
+	padding-top: 20rpx;
+	background-color: #F0F0F0;
+	padding-bottom: 20rpx;
+	/* border: 1px solid black; */
+}
+
+/* li标签 */
+.content li{
+	margin: 10px 0;
+	/* border: 1px solid black; */
+}
+
+/* span 标签 */
+.content span{
+	display: inline-block;
+	margin: 10rpx;
+}
+
+.content text{
+	margin-left: 10rpx;
+}

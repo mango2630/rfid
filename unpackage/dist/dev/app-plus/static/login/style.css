@@ -1,0 +1,48 @@
+.container{
+	width: 100vw;
+	height: 100vh;
+	/* border: 1px solid black; */
+	/* padding-top: 15vh; */
+	overflow: hidden;
+}
+
+p{
+	margin-top: 15vh;
+	text-align: center;
+	/* display: inline-block; */
+	padding-bottom: 5vh;
+	
+}
+
+text{
+	display: block;
+	margin-top: 50rpx;
+}
+
+.login{
+	margin-left: 76rpx;
+	color: #595959;
+}
+
+input{
+		border-bottom: 1px solid #595959;
+		width: 600rpx;
+		display: inline-block;
+		/* margin-left: 30rpx; */
+}
+
+button{
+	width: 80vw;
+	margin-top: 20px;
+	color: white;
+	/* margin-bottom: 10vh; */
+}
+
+.butLogin{
+	background-color: #5056b3;
+	margin-top: 8vh;
+}
+
+.butFace{
+	background-color: #5056b3;
+}

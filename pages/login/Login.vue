@@ -1,14 +1,16 @@
 <template>
-	<view>
+	<view class="container">
+		<p>欢迎登陆</p>
 		<view class="login" ref="login">
-			<text>username</text>
+			<text class="us">Username</text>
 			<input type="text" value="username" ref="username" v-model="username" />
-			<text>password</text>
-			<input type="text" value="password" ref="password" v-model="password"/>
+			<text class="ps">Password</text>
+			<input type="password" value="password" ref="password" v-model="password"/>
 		</view>
-		<button type="default" @click="submit">账号密码登录</button>
+		
+		<button class="butLogin" type="default" @click="submit">账号密码登录</button>
 		<navigator url="../faceid/FaceIdLog">
-			<button type="default">人脸识别登录</button>
+			<button class="butFace" type="default">人脸识别登录</button>
 		</navigator>
 	</view>
 	
@@ -66,9 +68,7 @@
 	}
 </script>
 
-<style>
-	input{
-		border-bottom: 1px solid black;
-		width: 500rpx;
-	}
+<style scoped>
+	@import url("../../static/login/style.css");
+	
 </style>

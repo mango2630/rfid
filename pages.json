@@ -1,4 +1,11 @@
 {
+	"easycom": {
+			"autoscan": true,
+			"custom": {
+				// uni-ui 规则如下配置
+				"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+			}
+	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/entrance/Entrance",
@@ -70,7 +77,25 @@
 		{
 			"path": "pages/borrowrequest/ReqBor",
 			"style": {
-				"navigationBarTitleText": "先管理员发借用请求"
+				"navigationBarTitleText": "借用设备进度"
+			}
+		},
+		{
+			"path": "pages/setprofile/ModifyNickName",
+			"style": {
+				"navigationBarTitleText": "更改昵称"
+			}
+		},
+		{
+			"path": "pages/setprofile/ModifyPosition",
+			"style": {
+				"navigationBarTitleText": "更改职位"
+			}
+		},
+		{
+			"path": "pages/setprofile/ModifyPhone",
+			"style": {
+				"navigationBarTitleText": "更改联系电话"
 			}
 		}
 	],
@@ -78,7 +103,7 @@
 		"color": "#7A7E83",
 		"selectedColor": "#1296db",
 		"borderStyle": "black",
-		"backgroundColor": "#ffffff",
+		"backgroundColor": "#f7f7f7",
 		"height": "50px",
 		"fontSize": "10px",
 		"iconWidth": "24px",

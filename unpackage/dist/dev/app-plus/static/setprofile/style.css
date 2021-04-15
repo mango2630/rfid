@@ -1,0 +1,84 @@
+.container{
+	width: 100vw;
+	height: 100vh;
+	/* border: 1px solid red; */
+	/* padding-left: 2vw; */
+	/* margin-left: 2vw; */
+	background-color: #f8f8f8;
+}
+
+/* span */
+.container span{
+	padding-left: 2vw;
+	display: inline-block;
+	height: 10vh;
+	/* border: 1px solid green; */
+	line-height: 10vh;
+	background-color: #FFFFFF;
+}
+
+/* text */
+text{
+	display: block;
+	position: absolute;
+	right: 2vw;
+	line-height: 10vh;
+	color: #99A9BF;
+	background-color: #FFFFFF;
+}
+
+/* img */
+.img{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	border-bottom: 1px solid #F1F1F1;
+	background-color: #FFFFFF;
+	height: 11vh;
+}
+.img span{
+	line-height: 11vh;
+}
+image{
+	margin-top: 1vh;
+	width: 16vw;
+	height: 9vh;
+	position: absolute;
+	right: 7vw;
+}
+
+
+.nickname,.positon,.phone{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	border-bottom: 1px solid #F1F1F1;
+	background-color: #FFFFFF;
+}
+
+.nickname span,.positon span,.phone span{
+	line-height: 10vh;
+}
+.nickname text,.positon text,.phone text{
+	line-height: 10vh;
+}
+
+.nickname .nick{
+	position: absolute;
+	display: block;
+	right: 7vw;
+}
+
+.positon .job{
+	position: absolute;
+	display: block;
+	right: 7vw;
+}
+
+.phone p{
+	display: block;
+	height: 9vh;
+	line-height: 10vh;
+	position: absolute;
+	right: 7vw;
+}

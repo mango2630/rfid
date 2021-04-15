@@ -21,11 +21,27 @@
 		</view>
 		<!-- end:slider -->
 		
-		
-		<!-- 瀑布流效果？？？？？ 2个月没写，人傻了，居然不会写了 -->
 		<!-- start: display equipment -->
-		<view class="display">
-			<view class="equip1">
+		<view style="width: 100vw" class="container">
+			<view class="equip2">
+				<image src="../../static/logo.png" mode=""></image>
+				<text class="name">deviceName</text><br>
+				<text class="num">当前数量</text><br>
+				<text class="">总数量</text><br>
+			</view>
+			<view class="equip2">
+				<image src="../../static/logo.png" mode=""></image>
+				<text class="name">deviceName</text><br>
+				<text class="num">当前数量</text><br>
+				<text class="">总数量</text><br>
+			</view>
+			<view class="equip2">
+				<image src="../../static/logo.png" mode=""></image>
+				<text class="name">deviceName</text><br>
+				<text class="num">当前数量</text><br>
+				<text class="">总数量</text><br>
+			</view>
+			<view class="equip2">
 				<image src="../../static/logo.png" mode=""></image>
 				<text class="name">deviceName</text><br>
 				<text class="num">当前数量</text><br>
@@ -44,8 +60,6 @@
 		
 		
 		<navigator url="../borrowrequest/ReqBor">
-			<!-- <button type="default">借用</button> -->
-			
 			<!-- start : check the progress -->
 			<view class="checkbox">
 				<image src="../../static/request/request.png" mode=""></image>

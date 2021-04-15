@@ -1,0 +1,46 @@
+.container{
+	/* background-color: #7ab915; */
+	width: 100vw;
+	height: 100vh;
+	/* background: url("../../static/entrance/bg.png"); */
+	background: url("../../static/entrance/bg.jpg");
+}
+
+p{
+	color: white;
+	text-align: center;
+	display: inline-block;
+	height: 6vh;
+	width: 100vw;
+	line-height: 6vh;
+	/* font-size: 2rem; */
+	/* border: 1px solid black; */
+}
+.p1{
+	font-size: 2rem;
+	margin-top: 35vh;
+}
+
+.p2{
+	margin-top: 10rpx;
+	font-size: 2rem;
+}
+
+.p3{
+	margin-top: 15vh;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+/* button */ 
+.container button{
+	/* background-color: transparent; */
+	 background-color: #F0F0F0; 
+	/* background-color: #000000; */
+	display: block;
+	width: 60vw;
+}
+.login{
+	margin-top: 2vh;
+	margin-bottom: 3vh;
+}

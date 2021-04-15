@@ -1,12 +1,65 @@
 <template>
-	<view>
-		记录<br>
-		1. 自己所有的设备借用记录<br>
-		<text>
-			查询框<br>
-			借用记录条数：<br>
-			时间选择<br>
+	<view class="parent">
+		
+		<SearchBar></SearchBar>
+		
+		<view class="container">
 			
-		</text>
+			<image src="../../static/slider/2.jpg" mode=""></image>
+			<view class="content">
+				<text>设备名称：<span>huawei手机</span> </text>
+				<text>借用时间：<span>2021年8月10日</span> </text>
+				<text>归还时间：<span>2021年9月10日</span> </text>
+				<text>设备状态：<span>使用</span></text>
+			</view>
+		</view>
+		
+		<view class="container">
+			
+			<image src="../../static/slider/2.jpg" mode=""></image>
+			<view class="content">
+				<text>设备名称：<span>huawei手机</span> </text>
+				<text>借用时间：<span>2021年8月10日</span> </text>
+				<text>归还时间：<span>2021年9月10日</span> </text>
+				<text>设备状态：<span>使用</span></text>
+			</view>
+		</view>
+		
+		<view class="container">
+			
+			<image src="../../static/slider/2.jpg" mode=""></image>
+			<view class="content">
+				<text>设备名称：<span>huawei手机</span> </text>
+				<text>借用时间：<span>2021年8月10日</span> </text>
+				<text>归还时间：<span>2021年9月10日</span> </text>
+				<text>设备状态：<span>使用</span></text>
+			</view>
+		</view>
+		
+		<view class="container">
+			
+			<image src="../../static/slider/2.jpg" mode=""></image>
+			<view class="content">
+				<text>设备名称：<span>huawei手机</span> </text>
+				<text>借用时间：<span>2021年8月10日</span> </text>
+				<text>归还时间：<span>2021年9月10日</span> </text>
+				<text>设备状态：<span>使用</span></text>
+			</view>
+		</view>
+		
 	</view>
 </template>
+
+<script>
+	import SearchBar from '../../components/SearchBar.vue'
+	export default{
+		name : 'Record',
+		components:{
+			SearchBar
+		}
+	}
+</script>
+
+<style>
+	@import url("../../static/record/css/style.css");
+</style>
